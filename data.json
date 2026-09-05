@@ -1,0 +1,33 @@
+{
+  "currentDay": 0,
+  "baseline": {
+    "weight": 72.80,
+    "bodyFat": 25.1,
+    "height": 158,
+    "date": "2026-09-05"
+  },
+  "bodyStats": {
+    "weight": 72.80,
+    "bmi": 29.2,
+    "bodyFat": 25.1,
+    "muscleRate": 71.2,
+    "leanMass": 54.5,
+    "ftpTarget": 180,
+    "currentFtp": 145
+  },
+  "workouts": [
+    {
+      "title": "Day 1 Workout",
+      "strength": { "exercise": "Squat + Bench Press", "sets": 3, "reps": "6-8" },
+      "cycling": { "type": "Z2 Base", "duration": 90, "intensity": "Easy pace" },
+      "notes": "Build aerobic base"
+    }
+  ],
+  "progressLog": [],
+  "nutritionGoals": {
+    "protein": "120-145g daily",
+    "water": "3L+",
+    "coffee": "2 per day",
+    "sugar": "Minimal"
+  }
+}
