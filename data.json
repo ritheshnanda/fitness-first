@@ -12,22 +12,63 @@
     "bodyFat": 25.1,
     "muscleRate": 71.2,
     "leanMass": 54.5,
+    "muscleMass": 51.8,
     "ftpTarget": 180,
     "currentFtp": 145
   },
   "workouts": [
     {
-      "title": "Day 1 Workout",
-      "strength": { "exercise": "Squat + Bench Press", "sets": 3, "reps": "6-8" },
-      "cycling": { "type": "Z2 Base", "duration": 90, "intensity": "Easy pace" },
-      "notes": "Build aerobic base"
+      "day": 0,
+      "title": "Day 1 Workout (Phase 1: Foundation)",
+      "phase": "Foundation (Days 1-27)",
+      "strength": {
+        "exercise": "Squat + Bench Press",
+        "sets": 3,
+        "reps": "6-8",
+        "rest": "2-3 min between sets",
+        "notes": "Focus on form, controlled tempo. Core engagement on bench."
+      },
+      "cycling": {
+        "type": "Z2 Base Building",
+        "duration": 90,
+        "intensity": "Conversational pace (120-140 HR)",
+        "notes": "Easy aerobic work. Establish consistency. Can talk during ride."
+      },
+      "nutrition": {
+        "calorieTarget": 2100,
+        "proteinGrams": 130,
+        "notes": "500 kcal deficit from TDEE. Eat protein at every meal."
+      },
+      "notes": "Welcome to Day 1! Your goal this phase: build aerobic base + establish training habit. Do strength FIRST in morning, cycling in evening or separate session. Stay hydrated (3L+). Aim for 2 hard sessions (strength+cycling on same day is ok for recovery)."
     }
   ],
   "progressLog": [],
   "nutritionGoals": {
-    "protein": "120-145g daily",
-    "water": "3L+",
-    "coffee": "2 per day",
-    "sugar": "Minimal"
+    "protein": "120-145g daily (1.6-2.0g per kg)",
+    "water": "3L+ daily",
+    "coffee": "2 per day max",
+    "sugar": "Minimal, whole foods only",
+    "deficit": "~500 kcal/day for fat loss",
+    "refeed": "1 day per week at +500 kcal"
+  },
+  "phases": {
+    "phase1": {
+      "days": "1-27",
+      "ftpTarget": "145W → 150W",
+      "bodyTarget": "-3 to -5kg, preserve muscle",
+      "weeklyStructure": "3x strength (6-8 reps), 3x cycling (Z2 base + light intervals), 1x recovery"
+    },
+    "phase2": {
+      "days": "28-54",
+      "ftpTarget": "150W → 165W",
+      "bodyTarget": "-2 to -3kg, body fat 21-22%",
+      "weeklyStructure": "3x strength (5-6 reps + accessories), 3x cycling (sweet-spot 88-94% FTP), 1x recovery"
+    },
+    "phase3": {
+      "days": "55-80",
+      "ftpTarget": "165W → 180W",
+      "bodyTarget": "-1 to -2kg, body fat 20-22%",
+      "weeklyStructure": "2x strength (maintenance), 3x cycling (threshold+VO2), 2x recovery"
+    }
   }
 }
